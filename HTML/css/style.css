@@ -20,9 +20,23 @@
     text-align: center;
     color: rgb(253, 247, 247);
     padding: 250px;
+    padding-top: 240px;
 }
 .bg-text1{
     text-align: center;
     padding: 2px;
+    font-size: small;
+    padding-top: 25px;
 }
-
+.bg-image1{
+background-image: url("/PICTURE/l_image.jpg");
+width: 100%;
+height: 50vh;
+text-align: center;
+}
+.bg-text2{
+    color: rgb(253, 247, 247);
+    padding: 250px;
+    padding-top: 100px;
+    font-size: small;
+}

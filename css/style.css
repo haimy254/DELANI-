@@ -110,3 +110,8 @@ body {
   width: 65%;
   height: 25vh;
 }
+.bg-image2 {
+  background-image: url(/assets/c_image.jpg);
+  width: 100%;
+  height: 80vh;
+}

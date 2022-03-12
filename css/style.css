@@ -95,6 +95,11 @@ body {
   align-items: center;
   font-size: 0.9rem;
 }
-.bg-text3{
-    text-align: center;
+.bg-text3 {
+  text-align: center;
+}
+.design-portfolio {
+  display: flex;
+  width: 65%;
+  height: 25vh;
 }

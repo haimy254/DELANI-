@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p.design").toggle();
+    });
+});
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p.development").toggle();
+    });
+});

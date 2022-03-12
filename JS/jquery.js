@@ -1,10 +1,5 @@
-$(document).ready(function(){
-    $("button").click(function(){
-        $("p.design").toggle();
-    });
-});
-$(document).ready(function(){
-    $("button").click(function(){
-        $("p.development").toggle();
-    });
+$(document).ready(function () {
+  $("button").click(function () {
+    $("p.item-text-1").toggle();
+  });
 });

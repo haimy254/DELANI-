@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $("button").click(function () {
-    $("p.item-text2").toggle();
+    $("#item-text2").toggle();
   });
 });
 

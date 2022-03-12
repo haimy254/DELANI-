@@ -83,7 +83,6 @@ body {
 
 .item-text {
   position: absolute;
-  top: 0;
   left: 0;
   width: 100%;
   background: #fff;
@@ -102,4 +101,7 @@ body {
   display: flex;
   width: 65%;
   height: 25vh;
+}
+#item.text2 {
+  visibility: hidden;
 }

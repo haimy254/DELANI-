@@ -105,3 +105,8 @@ body {
 #item.text2 {
   visibility: hidden;
 }
+.design-portfolio2 {
+  display: flex;
+  width: 65%;
+  height: 25vh;
+}

@@ -68,18 +68,18 @@ body {
   width: 100%;
 }
 
-.design-item {
+/* .design-item {
   position: relative;
-}
+} */
 
-.design-item > .item-icon {
+/* .design-item > .item-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   cursor: pointer;
   padding: 1rem;
-}
+} */
 
 .item-text {
   position: absolute;
@@ -104,8 +104,8 @@ body {
   margin-bottom: 25px;
   margin-left: 30px;
 }
-#item.text2 {
-  visibility: hidden;
+.item-text2 {
+  display: none;
 }
 .design-portfolio2 {
   display: flex;
@@ -129,4 +129,10 @@ body {
   color: white;
   display: flex;
   background-color: none;
+}
+.design-socialicons {
+  display: flex;
+  padding: 30px;
+  margin-left: 350px;
+  justify-items: 5px;
 }

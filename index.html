@@ -132,7 +132,7 @@
         <h3><b>PORTFOLIO</b></h3>
         <div class="service">
           <div class="design-portfolio">
-            <img src="/PORTFOLIO/work1.jpg" class="fluid" alt="" />
+            <img src="/PORTFOLIO/work1.jpg" class="img-fluid" alt="" />
             <img src="/PORTFOLIO/work2.jpg" class="img-fluid" alt="" />
             <img src="/PORTFOLIO/work3.jpg" class="img-fluid" alt="" />
             <img src="/PORTFOLIO/work4.jpg" class="img-fluid" alt="" />
@@ -148,33 +148,54 @@
       </div>
     </section>
     <section class="container">
-      <form>
+      <form id="my-form" method="post">
         <div class="bg-image2">
           <div class="bg-text2">
             <h3>CONTACTS</h3>
+
             <div class="form-group">
-              <div class="form-item">
-                <lable for="name">NAME</lable>
-                <input type="text" id="name" name="name" />
+              <div>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name..."
+                  class="form-item"
+                  required
+                />
               </div>
             </div>
+
             <div class="form-group">
-              <div class="form-item">
-                <lable for="email">EMAIL</lable>
-                <input type="text" id="email" name="email" />
+              <div>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Email..."
+                  class="form-item"
+                  required
+                />
               </div>
             </div>
+
             <div class="form-group">
-              <lable for="message">MESSAGE</lable>
               <textarea
-                type="text"
                 id="message"
                 name="message"
-                col="40"
-                row="80"
+                placeholder="Your message here..."
+                class="form-item"
+                required
               >
               </textarea>
             </div>
+
+            <div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <p id="message" class="message success hide">
+              form submitted successfully
+            </p>
           </div>
         </div>
       </form>
@@ -235,6 +256,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="/JS/jquery.js"></script>
     <script src="/JS/index.js"></script>
   </body>

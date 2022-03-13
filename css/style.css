@@ -120,15 +120,16 @@ body {
   padding: 10px;
   margin-top: 25px;
 }
-.form-group {
+.form-group > input {
   box-sizing: border-box;
   display: flex;
   border: 1px solid white;
 }
 .form-item {
   color: white;
-  display: flex;
   background-color: none;
+  border: 1px solid white;
+  padding: 0.4rem;
 }
 .design-socialicons {
   display: flex;
@@ -143,4 +144,26 @@ body {
 .row::after {
   content: "";
   display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.message {
+  margin: 0.2rem;
+  background: rgb(138, 137, 137);
+  padding: 0.2rem;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
 }

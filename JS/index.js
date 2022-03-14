@@ -11,13 +11,13 @@ $(document).ready(function () {
     $(".message").addClass("show");
     alert("message submitted");
 
-    function sendEmail(name, email, message) {
-      email.send({
-        Host: "smt.gmail.com",
-        Username: "haimanaare@gmail.com",
-        Password: "eawbopgsanmmcwsq",
-        To: "",
-      });
-    }
+    // function sendEmail(name, email, message) {
+    //   email.send({
+    //     Host: "smt.gmail.com",
+    //     Username: "haimanaare@gmail.com",
+    //     Password: "0124578",
+    //     To: "",
+    //   });
+    // }
   });
 });

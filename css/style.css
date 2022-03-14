@@ -114,6 +114,8 @@ body {
 .design-portfolio2 {
   display: flex;
   width: 100%;
+  margin-top: 2rem;
+  /* margin-left: 1rem; */
   /* height: 25vh;
   margin-left: 30px; */
 }
@@ -203,4 +205,5 @@ body {
   position: relative;
   width: 400px;
   display: flex;
+  margin-right: 1rem;
 }
